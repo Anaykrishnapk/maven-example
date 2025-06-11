@@ -1,0 +1,7 @@
+ - name: Basic user setup
+   hosts: local
+   become: true
+   tasks:
+     - name: Example task
+       debug:
+         msg: "myr"
